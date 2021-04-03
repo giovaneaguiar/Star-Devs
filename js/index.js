@@ -31,3 +31,21 @@ function getData(param) {
 return fetch(`https://swapi.dev/api/${param}`)
           .then((res)=> res.json());
 }
+
+//funcao para copiar uma frase
+function loadPhrase(){
+    //cria consts para ter acesso ao botao
+    const btn = document.getElementById('btn-phrases');
+    const phrase = document.getElementById('phrase');
+
+    //fazer requisição em cima da url 
+    return fetch('http://swquotesapi.digitaljedi.dk/api/SWQuote/RandomStarWarsQuote')
+       .then (data => data.json())
+       .then (json =>{ 
+
+       })
+ 
+    
+    .catch (err => console.log('Erro: ', err))
+
+}
