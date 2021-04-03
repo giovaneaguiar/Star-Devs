@@ -1,3 +1,8 @@
+
+//https://swapi.dev/about
+
+//http://swquotesapi.digitaljedi.dk/index.html
+
 //criando variaveis com o id do html
 const persons = document.getElementById('persons');
 const starships = document.getElementById('starships');
@@ -39,13 +44,14 @@ function loadPhrase(){
     const phrase = document.getElementById('phrase');
 
     //fazer requisição em cima da url 
-    return fetch('http://swquotesapi.digitaljedi.dk/api/SWQuote/RandomStarWarsQuote')
+    return fetch('https://swquotesapi.digitaljedi.dk/api/SWQuote/RandomStarWarsQuote')
        .then (data => data.json())
        .then (json =>{ 
+           console.log(json);
+           btn.innerHTML = 'Ver mais uma frase!';
+           phrase.innerHTML = ``
 
        })
- 
-    
     .catch (err => console.log('Erro: ', err))
 
-}
+};
