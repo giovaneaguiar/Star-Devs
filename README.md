@@ -1,5 +1,5 @@
 # Star-Devs
-Projeto utilizando Fetch,  que informa dados sobre Star Wars. Desenvolvido através da Udemy para avançar em front-end. 
+Projeto utilizando Fetch API,  que informa dados sobre Star Wars. Desenvolvido através da Udemy para avançar em front-end. 
 
 ![stardevs1](https://user-images.githubusercontent.com/48738431/113484898-34a73f00-9481-11eb-96ed-6c56cea13572.png)
 Cada clique no botão mostra uma nova frase baseada em Star Wars. 
