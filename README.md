@@ -1,5 +1,5 @@
 <h1 align="center">Star-Devs</h1>
-<p align="center">Projeto utilizando <strong>Fetch API</strong>,  que informa dados sobre Star Wars. Desenvolvido através da Udemy para avançar em front-end.</p>
+<p align="center">Projeto utilizando <strong>Fetch API</strong>,  que informa dados sobre <strong>Star Wars</strong>. Desenvolvido através da Udemy para avançar em front-end.</p>
 
 ## 🖱️ Funcionalidades
 <p> - Cada clique no botão mostra uma nova frase baseada em Star Wars. </p>
